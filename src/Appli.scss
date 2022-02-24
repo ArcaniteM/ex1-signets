@@ -1,0 +1,28 @@
+.Appli {
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+
+    font-size: 0.5em;
+    padding: 10px;
+
+    position: sticky;
+}
+
+.title {
+    color: white;
+    
+}
+
+.myName {
+    color: white;
+}
+
+.imgAppli {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
