@@ -1,26 +1,26 @@
 [
     {
-        "id": "cdx01",
+        "id": "1",
         "nom": "Blood Angels",
         "prix": 43.99
     },
     {
-        "id": "cdx02",
+        "id": "2",
         "nom": "Death Watch",
         "prix": 44.99
     },
     {
-        "id": "cdx03",
+        "id": "3",
         "nom": "Adeptus Mechanicus",
         "prix": 60.99
     },
     {
-        "id": "cdx04",
+        "id": "4",
         "nom": "Chaos Space Marines",
         "prix": 55.90
     },
     {
-        "id": "cdx04",
+        "id": "5",
         "nom": "Death Guard",
         "prix": 40.90
     }
