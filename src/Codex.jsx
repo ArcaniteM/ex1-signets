@@ -1,13 +1,18 @@
 import './Codex.scss';
 
-export default function Codex({etatPanier: [panier, setPanier], nom, prix, pid}) {
+export default function Codex({etatPanier: [], nom, prix, pid}) {
+
+  if(panier[pid]) {
+        qte = panier[pid].qte;
+  }
+
   return (
-    <div className="Codex">
+    <article className="Codex">
         <div className = "divContent">
-              <img className = "imgContent" src={"img/1.jpg"} alt="" />
+              <img className = "imgContent" src={"img/" + pid + ".jpg"} alt={nom} />
         </div>
-        <div className="divTitle"></div>
-        <div className="divPrix"></div>
-    </div>
+        <div className="divTitle">{nom}</div> 
+        <div className="divPrix">{prix}</div>
+    </article>
   );
 }
